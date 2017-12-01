@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #app01{
+            width: 90%;
+/*
+            background-color: aqua;
+            height: 500px;
+*/
+            margin: auto;
+        }
+        #app0{
+           width:450px;
+            height:50px;
+/*             background-color: red;*/
+            margin: 0 auto;
+        }
+        #bei{
+            background-color: #f8f8f8;
+        }
+        #app1{
+            
+        }
+        #app1 li{
+            list-style: none;
+            float: left;
+            
+            
+        }
+       #app1 li a{
+            text-decoration: none;
+            font-size: 20px;
+            color: #848484;
+            margin-left: 30px;
+            line-height: 50px;
+        }
+       #app1 li a:hover{
+            text-decoration: underline;
+            color: #3388ff;
+        }
+       
+        #app2{
+            width: 100%;
+            text-align: center;
+            border-top: 1px solid #f0f0f0;
+            padding-top: 5px;
+        }
+        #app3 input{
+            width: 307px;
+            height: 57px;
+        }
+        #app3 button{
+             width: 94px;
+            height: 64px;
+            margin-left: -5px;
+            background-color: #3388ff;
+            color: #fff;
+            font-size: 17px;
+            border:0 solid #ccc;
+            
+        }
+        #app4 ul li a{
+            text-decoration: none;
+        }
+        #app4 ul li{
+            float: left;
+            list-style: none;
+            margin-left: 30px;
+            display: block;
+        }
+        #app4 ul{
+            margin-left: -50px;
+        }
+        #app5 div{
+            clear:both;
+            text-align: center;
+        }
+        #app5 div a{
+            width: 5px;
+            height:5px;
+            background-color: #e0e0e0;
+            border-radius: 2px;
+            display:inline-block;
+        }
+        #app5 #a{
+            background-color: #999999;
+        }
+        #app6{
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 15px;
+        }
+        #app6 p{
+            font-size: 22px;
+            margin: 10px 0;
+            color: #494949;
+            font-weight: 900;
+        }
+        #app6 span{
+            font-size: 15px;
+            color: #9999a6;
+        }
+        #app6 #zi{
+            font-size: 13px;
+            border:1px solid #efb9b9;
+            margin-left: 5px;
+            color: red;
+            font-weight: 900
+        }
+         #app7{
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 15px;
+        }
+        #app7 p{
+            font-size: 22px;
+            margin: 10px 0;
+            color: #494949;
+            font-weight: 900;
+        }
+        #app7 span{
+            font-size: 15px;
+            color: #9999a6;
+        }
+        #app7 #zi{
+            font-size: 13px;
+            border:1px solid #efb9b9;
+            margin-left: 5px;
+            color: red;
+            font-weight: 900
+        }
+        #app7 #text1{
+            margin-left: 5px;
+        }
+         #app8{
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 15px;
+        }
+        #app8 p{
+            font-size: 22px;
+            margin: 10px 0;
+            color: #494949;
+            font-weight: 900;
+        }
+        #app8 span{
+            font-size: 15px;
+            color: #9999a6;
+        }
+        #app8 #zi{
+            font-size: 13px;
+            border:1px solid #efb9b9;
+            margin-left: 5px;
+            color: red;
+            font-weight: 900
+        }
+        #app8 #text1{
+            margin-left: 5px;
+        }
+        #app9{
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 15px;
+        }
+        #app9 p{
+            font-size: 22px;
+            margin: 10px 0;
+            color: #494949;
+            font-weight: 900;
+        }
+        #app9 span{
+            font-size: 15px;
+            color: #9999a6;
+        }
+        #app9 #text1{
+            margin-left: 5px;
+        }
+        #app10{
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 15px;
+        }
+        #app10 p{
+            font-size: 22px;
+            margin: 10px 0;
+            color: #494949;
+            font-weight: 900;
+        }
+        #app10 span{
+            font-size: 15px;
+            color: #9999a6;
+        }
+        #app10 #zi{
+            font-size: 13px;
+            border:1px solid #efb9b9;
+            margin-left: 5px;
+            color: red;
+            font-weight: 900
+        }
+        #app10 #text1{
+            margin-left: 5px;
+        }
+        #app11{
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 15px;
+        }
+        #app11 p{
+            font-size: 22px;
+            margin: 10px 0;
+            color: #494949;
+            font-weight: 900;
+        }
+        #app11 span{
+            font-size: 15px;
+            color: #9999a6;
+        }
+       
+        #app11 #text1{
+            margin-left: 5px;
+        }
+         #app12{
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 15px;
+        }
+        #app12 p{
+            font-size: 22px;
+            margin: 10px 0;
+            color: #494949;
+            font-weight: 900;
+        }
+        #app12 span{
+            font-size: 15px;
+            color: #9999a6;
+        }
+          #app13{
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 15px;
+        }
+        #app13 p{
+            font-size: 22px;
+            margin: 10px 0;
+            color: #494949;
+            font-weight: 900;
+        }
+        #app13 span{
+            font-size: 15px;
+            color: #9999a6;
+        }
+       
+        
+          #app14{
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 15px;
+        }
+        #app14 p{
+            font-size: 22px;
+            margin: 10px 0;
+            color: #494949;
+            font-weight: 900;
+        }
+        #app14 span{
+            font-size: 15px;
+            color: #9999a6;
+        }
+        
+        #app15{
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 15px;
+        }
+        #app15 p{
+            font-size: 22px;
+            margin: 10px 0;
+            color: #494949;
+            font-weight: 900;
+        }
+        #app15 span{
+            font-size: 15px;
+            color: #9999a6;
+        }
+        #app15 #zi{
+            font-size: 13px;
+            border:1px solid #efb9b9;
+            margin-left: 5px;
+            color: red;
+            font-weight: 900
+        }
+        #app15 #text1{
+            margin-left: 5px;
+        }
+        #app16{
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 15px;
+        }
+        #app16 p{
+            font-size: 22px;
+            margin: 10px 0;
+            color: #494949;
+            font-weight: 900;
+        }
+        #app16 span{
+            font-size: 15px;
+            color: #9999a6;
+        }
+        #app16 #zi{
+            font-size: 13px;
+            border:1px solid #efb9b9;
+            margin-left: 5px;
+            color: red;
+            font-weight: 900
+        }
+        #app16 #text1{
+            margin-left: 5px;
+        }
+        #app17{
+/*
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 15px;
+*/
+        }
+        #app17 p{
+            font-size: 22px;
+            margin: 10px 0;
+            color: #494949;
+            font-weight: 900;
+        }
+        #app17 span{
+            font-size: 15px;
+            color: #9999a6;
+        }
+       
+        #app17 #text1{
+            margin-left: 5px;
+        }
+        #wei{
+            background-color: #f8f8f8;
+        }
+        #app18 p{
+            text-align: center;
+            font-size: 16px;
+            color:#999999; 
+            margin: 0;
+            padding-bottom: 15px;
+        }
+        #app18 #yong{
+            font-size: 19px;
+            font-weight: 900;
+            color: #666679;
+            padding:20px 0;
+          margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+   <div id="app">
+       <div id="app0">
+         <div id="app01">
+         <div id="bei">
+          <div id="app1">
+               <li v-for="list in lists">
+               <a href="">{{list.name}}</a>
+               </li>
+           </div>
+           <div id="app2">
+               <img :src="imgUrl" alt="">
+           </div>
+           <div id="app3">
+               <input v-model="">
+               <button>百度一下</button>
+           </div>
+           <div id="app4">
+               <ul>
+                   <li><a href=""><img :src="img1" alt=""></a></li>
+                   <li><a href=""><img :src="img2" alt=""></a></li>
+                   <li><a href=""><img :src="img3" alt=""></a></li>
+                   <li><a href=""><img :src="img4" alt=""></a></li>
+                   <li><a href=""><img :src="img5" alt=""></a></li>
+                   <li><a href=""><img :src="img6" alt=""></a></li>
+               </ul>
+               </li>
+           </div>
+           <div id="app5">
+               <div>
+                   <a href="" id="a"></a>
+                   <a href=""></a>
+                   <a href=""></a>
+               </div>
+           </div>
+           </div>
+           <div id="app6">
+               <p>{{message}}</p>
+               <span>{{text}}</span><span id="zi">{{tit}}</span>
+           </div>
+           <div id="app7">
+               <p>{{message}}</p>
+                <img :src="img1" alt="">
+               <span>{{text}}</span><span id="zi">{{tit}}</span><span id="text1">{{text1}}</span>
+           </div>
+           <div id="app8">
+               <p>{{message}}</p>
+               <span>{{text}}</span><span id="zi">{{tit}}</span><span id="text1">{{text1}}</span>
+           </div>
+           <div id="app9">
+               <p>{{message}}</p>
+                <img :src="img1" alt="">
+               <span>{{text}}</span> <span id="text1">{{text1}}</span>
+           </div>
+           <div id="app10">
+               <p>{{message}}</p>
+               <span>{{text}}</span><span id="zi">{{tit}}</span>
+           </div>
+           <div id="app11">
+               <p>{{message}}</p>
+                <img :src="img1" alt="">
+               <span>{{text}}</span><span id="text1">{{text1}}</span>
+           </div>
+           <div id="app12">
+               <p>{{message}}</p>
+               <span>{{text}}</span>
+           </div>
+            <div id="app13">
+               <p>{{message}}</p>
+               <span>{{text}}</span>
+           </div>
+            <div id="app14">
+               <p>{{message}}</p>
+               <span>{{text}}</span>
+           </div>
+           <div id="app15">
+               <p>{{message}}</p>
+                <img :src="img1" alt="">
+               <span>{{text}}</span><span id="zi">{{tit}}</span><span id="text1">{{text1}}</span>
+           </div>
+            <div id="app16">
+               <p>{{message}}</p>
+               <span>{{text}}</span><span id="zi">{{tit}}</span><span id="text1">{{text1}}</span>
+           </div>
+           <div id="app17">
+               <p>{{message}}</p>
+                <img :src="img1" alt="">
+               <span>{{text}}</span><span id="text1">{{text1}}</span>
+           </div>
+       </div>
+       <div id="wei">
+           <div id="app18">
+               <p id="yong"><img :src="img1" alt="">{{message}}</p>
+               <p>{{text}}</p>
+               <p><img :src="img2" alt="">{{tit}}</p>
+           </div>
+       </div> 
+   </div>
+   </div>
+   
+   <script src="dist/build.js"></script>
+   <script src="src/vue.js"></script>
+  
+</body>
+</html>

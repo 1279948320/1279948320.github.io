@@ -259,7 +259,8 @@ hr{
     left: 5%;
     display: inline-block;
      width: 39%;
-    line-height: 44px;
+    line-height: 40px;
+    overflow: hidden;
 }
 .x6{
    

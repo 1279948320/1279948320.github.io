@@ -164,10 +164,28 @@
   margin-top: -22px;
   z-index: 10;
   cursor: pointer;
-  background-size: 27px 44px;
+  background-size: 50px 40px;
   background-position: center;
   background-repeat: no-repeat;
+/*animation-name: fadeIn; 动画名称*/
+/*animation-duration: 3s; 动画持续时间*/
+/*animation-iteration-count: infinite; 动画次数*/
+/*animation-delay: 0s; 延迟时间*/
 }
+
+/*
+@-webkit-keyframes fadeIn {
+0% {
+
+}
+50% {
+
+}
+100% {
+
+}
+}
+*/
 .swiper-button-prev.swiper-button-disabled,
 .swiper-button-next.swiper-button-disabled {
   opacity: 0.35;
@@ -182,7 +200,7 @@
 }
 .swiper-button-next,
 .swiper-container-rtl .swiper-button-prev {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
+  background-image: url("../img/12.png");
   right: 10px;
   left: auto;
 }

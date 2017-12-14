@@ -55,13 +55,20 @@ html, body {
         animation: bb 2s linear infinite;
       
 }
+/*
+swiper-button-next{
+    animation: aa 3s linear infinite;
+}
+*/
+/*
 .swiper-slide .s4{
-    
+    animation: aa 3s linear infinite;
     position: absolute;
     top: 0;
     left: 90%;
     width:10%;
 }
+*/
 @keyframes bb{
     0%{
         transform: rotate(0deg)
@@ -81,13 +88,28 @@ html, body {
         transform: rotate(10deg)
     }
 }
+@keyframes aa{
+    0%{
+        transform: translateY(0px);
+            opacity: 1; /*初始状态 透明度为0*/
+    }
+    50%{
+        transform:translateY(-50px);
+        opacity: 0; /*中间状态 透明度为0*/
+    }
+    100%{
+        transform:translateY(0px);
+        opacity: 0; /*结尾状态 透明度为1*/
+    }
+}
 .swiper-button-next{
-    transform: rotate(-90deg);
+   
     position: absolute;
     bottom: 0;
     top:auto;
     left:50%;
     margin-left: -13.5px;
+    animation: aa 2.5s linear infinite;
 }
 .s1{
      background-image: url(../img/1.jpg);

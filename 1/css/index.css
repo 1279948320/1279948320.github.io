@@ -142,6 +142,6 @@ text-align: center;
 }
 .style_footer{
     position: fixed;
-    top: 10.35rem;
+    bottom: 0;
     background-color: #f3f3f3;
 }
